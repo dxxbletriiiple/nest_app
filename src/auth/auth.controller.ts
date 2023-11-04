@@ -3,8 +3,8 @@ import { AuthDTO } from './authDTO';
 
 @Controller('auth')
 export class AuthController {
-	@Post('register')
-	async register(@Body() dto: AuthDTO) {}
+	@Post('sigup')
+	async signUp(@Body() dto: AuthDTO) {}
 
 	@HttpCode(200)
 	@Post('login')
