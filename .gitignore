@@ -37,3 +37,9 @@ lerna-debug.log*
 #ENV vars
 .env
 .env*
+
+#DB
+mongo-data
+
+#Build
+build
