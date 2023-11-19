@@ -39,7 +39,7 @@ lerna-debug.log*
 .env*
 
 #DB
-mongo-data
+mongoDB/**/*
 
 #Build
 build
