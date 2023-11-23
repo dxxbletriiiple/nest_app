@@ -1,0 +1,22 @@
+{
+	"req": {
+		"method": "POST",
+		"url": "http://127.0.0.1:57507/review/create",
+		"data": {
+			"name": "Test",
+			"title": "Test Title",
+			"description": "Test Description",
+			"rating": 4,
+			"productId": "6559a3eec0080f95a2763db9"
+		},
+		"headers": { "content-type": "application/json" }
+	},
+	"header": {
+		"x-powered-by": "Express",
+		"date": "Sun, 19 Nov 2023 05:58:07 GMT",
+		"connection": "close",
+		"content-length": "0"
+	},
+	"status": 201,
+	"text": ""
+}
